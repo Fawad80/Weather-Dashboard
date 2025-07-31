@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="weather-header">
+        <p class="title">🌦 Weather Dashboard</p>
+      </div>
+
+      <div class="search-section">
+        <input type="text" id="cityInput" placeholder="Enter city name..." />
+        <button class="btn" id="getWeather">Get Weather</button>
+      </div>
+
+      <div class="weather-main">
+        <div class="icon"></div>
+        <div class="celsius"></div>
+      </div>
+
+      <div class="details">
+        <div class="left">
+          <div>🌡 Temperature</div>
+          <div>💧 Humidity</div>
+          <div>💨 Wind Speed</div>
+        </div>
+
+        <div class="right">
+          <div class="TR"></div>
+          <div class="HR"></div>
+          <div class="WR"></div>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
